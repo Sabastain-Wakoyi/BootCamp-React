@@ -1,4 +1,4 @@
-import fundamentals from "../../images/fundamentals.svg"
+import fundamentals from "../images/fundamentals.svg"
 export const LearnFundamental= ()=>{
 
     return(
@@ -8,7 +8,7 @@ export const LearnFundamental= ()=>{
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-md">
-            <img src={fundamentals} className="img-fluid" alt="" />
+           <img src={fundamentals} className="img-fluid" alt="" />
           </div>
           <div className="col-md p-5">
             <h2>Learn The Fundamentals</h2>

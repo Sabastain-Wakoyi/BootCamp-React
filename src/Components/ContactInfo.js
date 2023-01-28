@@ -1,4 +1,4 @@
-export const contactInfo = (props) =>{
+export const ContactInfo = (props) =>{
 
     return(
 
