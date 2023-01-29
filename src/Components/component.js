@@ -17,10 +17,10 @@ export const SimpleRef = () =>{
                 break;
             case "login":
                 if(inputRefName.current?.value===inputRefPassword.current?.value){
-                    alert("Both are OK")
+                    alert("All Good")
                 }
                 else{
-                    alert("Both are NOT OK")
+                    alert("All Bad")
                 }
             default :
                 break;

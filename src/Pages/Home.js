@@ -1,6 +1,6 @@
 import { Footer } from "../Components/Footer.js"
 import { Header} from "../Components/Header"
-import {NavBar } from "../Components/Nav"
+import {NavBar}  from "../Components/Nav"
 import { SignUp } from "../Components/SignUp"
 import { ReadMore } from "../Components/ReadMore"
 import { LearnFundamental } from "../Components/LearnFundamental"
@@ -11,7 +11,7 @@ import { ContactInfo } from "../Components/ContactInfo"
 import { SimpleRef } from "../Components/component"
 
 
-export const Home=()=>{
+export const Home = () => {
 
 
    
@@ -21,10 +21,7 @@ export const Home=()=>{
         {text:"Contact",href:"/contact"},
         {text:"Abou Us",href:"/about"}, 
     ]
-/* 
-    const instructors=[
-        {profile:"",name:""}
-    ] */
+
 
 
     return(
