@@ -9,7 +9,7 @@ import { Questions } from "../Components/Questions"
 import { Instructors } from "../Components/Instructors"
 import { ContactInfo } from "../Components/ContactInfo"
 import { SimpleRef } from "../Components/component"
-import { SocialMedia } from "../Components/SocialMedia.js"
+
 
 
 export const Home = () => {
@@ -40,7 +40,7 @@ export const Home = () => {
                 <ContactInfo></ContactInfo> 
                 <Footer></Footer>
                 <SimpleRef></SimpleRef>
-                <SocialMedia></SocialMedia>
+             
 
             </div>
         </>
